@@ -3,4 +3,3 @@
 
 from . import crossovered_budget
 from . import crossovered_budget_template
-from . import res_config_settings

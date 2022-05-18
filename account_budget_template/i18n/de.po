@@ -58,11 +58,6 @@ msgid "Created on"
 msgstr "Erstellt am"
 
 #. module: account_budget_template
-#: model:ir.model.fields,field_description:account_budget_template.field_res_config_settings__budget_templ_id
-msgid "Default Budget Template"
-msgstr "Standard-Budget-Vorlage"
-
-#. module: account_budget_template
 #: model:ir.model.fields,field_description:account_budget_template.field_crossovered_budget_template__display_name
 msgid "Display Name"
 msgstr "Anzeigename"

@@ -16,7 +16,6 @@
         "security/ir.model.access.csv",
         "views/crossovered_budget_template_view.xml",
         "views/crossovered_budget_view.xml",
-        "views/res_config_settings_view.xml",
     ],
     "installable": True,
 }

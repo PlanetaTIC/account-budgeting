@@ -78,18 +78,6 @@ class TestAccountBudgetTemplate(common.SavepointCase):
             len(self.budget.crossovered_budget_line_ids),
             len(self.budget_tmpl.budget_post_ids))
 
-    def test_res_config(self):
-        self.assertFalse(
-            self.setting.budget_templ_id)
-        self.setting.budget_templ_id = (
-            self.setting._default_budget_template())
-        self.setting.set_values()
-        self.assertTrue(
-            self.setting.budget_templ_id)
-        self.setting.budget_templ_id.unlink()
-        self.assertFalse(
-            self.setting.budget_templ_id)
-
     def test_budget_template_validation_error(self):
         with self.assertRaises(ValidationError):
             self.template_obj.create({
